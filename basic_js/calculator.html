@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <header id="upper_header" class="bg-primary text-white text-center py-3">
+        <div id="home_icon" class="container-fluid d-flex justify-content-start align-items-center">
+            <a href="index.html" class=" text-decoration-none"><i class="bi bi-house-door"></i></a>
+        </div>
+        <h1>Basic Projects</h1>
+    </header>
+    <hr class="bg-white my-0">
+    <nav id="lower_header" class="navbar navbar-expand-lg navbar-dark ">  
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="calculator.html">Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="toDo.html">To Do List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="weather.html">Wheather forecasting</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="digitalClock.html">Digital Clock</a>
+                    </li>
+                </ul>   
+            </div>
+        </div>
+    </nav>
+    <hr class="bg-white my-0">
+    <main id="mainBody" class="container-fluid my-5">
+        <div class="container">
+            <div id="Calculator">
+                <div id='title' class='text-center'>
+                     <h6><b>Yash's CALCULATOR</b></h6>
+                </div>
+                <div id="entryBox" class="text-center my-3">
+                    <div id="entry">
+                        <p id="result">0</p>
+                    </div>
+                    <div id="history">
+                        <p id="oldtext">0</p>
+                    </div>
+                </div>
+                <div id="butttons" class="text-center">
+                    <button  class = "red" id='delete' value='delete'>Delete</button>
+                    <button value = "/">&divide;</button>
+                    <button value = "*">X</button>
+
+                    <button value = "7">7</button>
+                    <button value = "8">8</button>
+                    <button value = "9">9</button>
+                    <button value = "-">-</button>
+
+                    <button value = "4">4</button>
+                    <button value = "5">5</button>
+                    <button value = "6">6</button>
+                    <button value = "+">+</button>
+
+                    <button value = "1">1</button>
+                    <button value = "2">2</button>
+                    <button value = "3">3</button>
+                    <button class='invisible'>N</button>
+
+                    <button id='zeroButton' value='0'>0</button>
+                    <button value='.'>.</button>
+                    <button id='equalButton' value='='>=</button>
+                </div>
+                <div id='tester'></div>
+                    
+            </div>
+
+        </div>
+    </main>
+    
+    <footer id="footer" class="text-white text-center py-3 mt-5">
+        <div class="container-fluid">
+                <div id="Social" class="Social">
+                       <ul class="Social-list">          
+                         <li class="ms-3"><a class="text-body-secondary" href="https://www.reddit.com/user/i_darkpearl/" target="_blank"><i class="bi bi-reddit"></i></a></li>
+                         <li class="ms-3"><a class="text-body-secondary" href="https://www.instagram.com/i_yashsehgal/" target="_blank"><i class="bi bi-instagram"></i></a></li>
+                         <li class="ms-3"><a class="text-body-secondary" href="https://www.linkedin.com/in/yash-sehgal-46b938210/" target="_blank"><i class="bi bi-linkedin"></i></a></li>
+                         <li class="ms-3"><a class="text-body-secondary" href="https://github.com/idarkpearl" target="_blank"><i class="bi bi-github"></i></a></li>  
+                       </ul>
+                </div>
+            
+        </div>
+        
+        
+    </footer>
+    <script src="calculator.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>
