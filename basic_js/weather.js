@@ -1,4 +1,4 @@
-const apiKey = "a940e740b69a462798a191725251311";
+const apiKey = "Your Api key add that here";
 
 const getWeatherButton = document.getElementById("getWeatherButton");
 const cityInput = document.getElementById("cityInput");
@@ -63,4 +63,5 @@ tableDiv.innerHTML = tableHTML;
     } catch (err) {
         weatherResult.innerHTML = "<p>Error fetching data.</p>";
     }
+
 });
