@@ -2,40 +2,42 @@ Basic JS Projects – Calculator, To-Do, Weather, Digital Clock
 
 This project is a collection of simple and interactive mini-applications built using HTML, CSS, and JavaScript. It includes a Calculator, Digital Clock, Weather App, and To-Do List, showcasing core web development concepts through beginner-friendly, functional implementations.
 
+⚠️ Note: The project is not fully responsive yet — I forgot to add responsiveness, and honestly… I’m too lazy to do it right now 😄.
+
 🚀 Features
 ✓ Calculator
 
 Perform basic arithmetic operations
 
-Clean UI and responsive layout
+Clean UI and easy to use
 
 ✓ Digital Clock
 
-Real-time display of current time
+Real-time display
 
-Auto-updates every second
+Updates every second
 
 ✓ Weather App
 
-Fetches real-time weather data using an external API
+Fetches real-time weather data via API
 
-Displays temperature, humidity, and weather conditions
+Displays temperature, humidity, and conditions
 
 ✓ To-Do List
 
-Add, delete, and mark tasks as done
+Add, delete, and manage tasks
 
-Simple and easy to manage daily tasks
+Simple and beginner-friendly
 
 📁 Technologies Used
 
-HTML5 for structure
+HTML5
 
-CSS3 for styling
+CSS3
 
-JavaScript (Vanilla JS) for all functionality
+JavaScript (Vanilla JS)
 
-Weather API for real-time weather details
+Weather API
 
 📂 Project Structure
 BASIC_JS/
@@ -55,25 +57,24 @@ BASIC_JS/
 
 🌐 Live Demo
 
-https://sensational-stardust-76183c.netlify.app/
+(Your Netlify link will go here after deployment)
 
 📌 How to Use
 
 Open index.html
 
-Navigate to any mini-app (Calculator, Weather, Clock, To-Do)
+Select any mini-app from the homepage
 
-Interact and explore the features
+Explore the functionality
 
 🧩 Purpose
 
-This project is designed for beginners learning JavaScript.
-It demonstrates:
+Made for learning and practicing:
 
 DOM manipulation
 
-Event handling
+Events
 
-API integration
+API usage
 
-Basic UI layout
+JS fundamentals
